@@ -18,10 +18,11 @@ public class EjercicioLongitudArea {
 	 * Guardar el valor en la variable Rad
 	 * 
 	 * Usar la variable Log para realizar el cálculo de la longitud 
-	 * Llamar a la clase Math para calcular PI por el Rad (valor usuario)
+	 * Multiplicar 2 * PI
+	 * Llamar a la clase Math para calcular PI * el Rad (valor usuario)
 	 * 
 	 * Usar la variable Area
-	 * Llamar a la clase Math para calcular PI, por RADIO, Math POW elevado a 2
+	 * Llamar a la clase Math para calcular PI, * (por) Math POW, Rad elevado a 2
 	 * 
 	 * Mostrar el pantalla la longitud y el area
 	 * 
