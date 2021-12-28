@@ -1,11 +1,9 @@
-import java.util.Locale;
 import java.util.Scanner;
 
 public class MediaAritmeticaDos {
 	/**
 	 * Este es un programa que calcula la media aritmética de tres valores 
 	 * enteros y devuelve un valor decimal. 
-	 * @version
 	 * @author Nelson
 	 * @param args
 	 */
@@ -15,8 +13,6 @@ public class MediaAritmeticaDos {
 		double result;
 		
 		Scanner sc= new Scanner(System.in);
-		sc.useLocale(Locale.US); //se llama la librería Locale para 
-								//que 
 		
 		System.out.println("Digite la primera nota: ");
 		var1= sc.nextInt(); 
