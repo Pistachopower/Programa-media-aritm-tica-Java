@@ -31,20 +31,22 @@ public class EjercicioLongitudArea {
 	public static void main(String[] args) {
 	double Rad, Log, Area;
 	
-	Scanner sc=new Scanner(System.in);
+	Scanner sc= new Scanner(System.in);
 	sc.useLocale(Locale.US);
 	
-	System.out.println("Digite el radio a calcular: ");
+	System.out.println("Ingrese el radio: ");
 	Rad=sc.nextDouble();
 	
-	Log= 2*Math.PI*Rad;
-	Area= Math.PI *Math.pow(Rad,2);
+	Log= 2 *Math.PI* Rad;
+	Area= Math.PI* Math.pow(Rad, 2);
 	
-	System.out.println("La longitud es: " +Log);
+	System.out.println("La longitud es: "+Log);
 	
-	System.out.println("El área es: "+ Area);
+	System.out.println("El area es: "+ Area);
 	
-
+	sc.close();
+		
+		
 	}
 
 }
